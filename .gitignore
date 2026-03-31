@@ -1,0 +1,12 @@
+.DS_Store
+
+.idea/
+.vscode/
+.claude/
+
+__pycache__/
+*.py[cod]
+
+output_images/
+output_comparison_GAD/
+output_comparison_GAD4/
