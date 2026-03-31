@@ -11,7 +11,7 @@ import numpy as np
 # --- 1. 配置区域 (你可以在这里随心所欲地改) ---
 BACKGROUND_COLOR = "#ffffff"  # 背景颜色：白色 (#ffffff) 或 深色 (#222222)
 FONT_COLOR = "black"  # 字体颜色：跟背景反着来
-NODE_SIZE = 10  # 节点大小
+NODE_SIZE = 12  # 节点大小
 EDGE_COLOR = "#cccccc"  # 边颜色 (浅灰)
 
 # 尝试导入社区检测
@@ -138,7 +138,7 @@ def load_and_prep_graph(filepath):
 
         # 设置节点大小 (可选)
     for node in G.nodes():
-        G.nodes[node]['size'] = 15
+        G.nodes[node]['size'] = NODE_SIZE
     return G
 
 
