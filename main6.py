@@ -235,7 +235,7 @@ def update_and_save(cluster_mode, resolution, n_clicks, current_elements):
         plt.figure(figsize=(10, 10))
         plt.axis('off')
         
-        nx.draw_networkx_nodes(G, new_pos, nodelist=node_order, node_size=20, node_color=color_list_for_mpl, alpha=0.9, edgecolors='black', linewidths=0.2)
+        nx.draw_networkx_nodes(G, new_pos, nodelist=node_order, node_size=30, node_color=color_list_for_mpl, alpha=0.9, edgecolors='black', linewidths=0.6)
         nx.draw_networkx_edges(G, new_pos, alpha=0.15, width=0.5)
         
         os.makedirs(OUTPUT_DIR, exist_ok=True)
